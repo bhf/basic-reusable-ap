@@ -8,15 +8,15 @@ import com.bhf.annotations.Reusable;
 public class Quote {
 
     @Reusable
-    public long instrumentId;
+    long instrumentId;
     @Reusable
-    public long bidPrice;
+    long bidPrice;
     @Reusable
-    public long askPrice;
+    long askPrice;
     @Reusable
-    public long bidQty;
+    long bidQty;
     @Reusable
-    public long askQty;
+    long askQty;
     @Reusable
-    public long timeStamp;
+    long timeStamp;
 }
